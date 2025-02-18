@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Store Website</title>
+    <link rel="stylesheet" type="text/css" href="css/contactus.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Madimi+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><img id="logo" src="img/logo.png" width="200" height="180"/></li>
+                <li><img id="gif" src="https://i.pinimg.com/originals/b4/13/34/b41334a036d6796c281a6e5cbb36e4b5.gif" width="125" height="150" /></li>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="homepage.html#aboutus">About Us</a></li>
+                <li><a href="productlisting.html">Products</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <div class="h-icons">
+                <a href="shopping cart.html" title="Shopping cart"><i class='bx bxs-shopping-bags' ></i></a>
+                <a href="#phonenumber" title="Contact Number"><i class='bx bx-phone'></i></a>
+                <a href="mailto: bookworm@gmail.com" title="Email"><i class='bx bxs-envelope' ></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+        </nav>
+    </header>
+    <!--Contact starts here-->
+    <main>
+    <div class="contact-container">
+        <form action="" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+                <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <label for="message">Message:</label>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button class="button" role="button">Submit</button>
+        </form>
+        <div class="contact-right">
+            <img src="https://img.pikbest.com/element_our/20230811/bg/d0d833db1824a.png!w700wp" alt="Book Gnome">
+        </div>
+    </div>
+    </main>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="homepage.html">Home</a>
+                <a href="homepage.html#aboutus">About</a>
+                <a href="productlisting.html">Products</a>
+            </div>
+
+            <div class="box">
+                <h3>Locations</h3>
+                <p>Malaysia</p>
+                <p>Korea</p>
+                <p>Japan</p>
+                <p>France</p>
+            </div>
+
+            <div class="box">
+                <h3 id="contacts">Contact Info</h3>
+                <p id="phonenumber">+6012-3456789</p>
+                <a href="mailto:bookwormstore@gmail.com" id="email">bookwormstore@gmail.com</a>
+                <p>8, Jalan Wangi 10, Selangor </p>
+                <img src="img/payment logo.png" alt="payment methods" title="payment method" width="250px" height="150px">
+            </div>
+        </div>
+
+        <div class="credit">created by <span> best team</span> | all rights reserved</div>
+
+    </footer>
+</body>
+</html>
